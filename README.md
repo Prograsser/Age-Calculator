@@ -31,4 +31,4 @@ This project was developed to practice:
 
 ## Output
 
-The program generates a text file (`CalcDateProject.txt`) containing the calculated ages of all valid users and displays the results in the console.
+The program generates a text file (`data.txt`) containing the calculated ages of all valid users and displays the results in the console.
