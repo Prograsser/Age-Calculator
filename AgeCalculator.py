@@ -95,14 +95,14 @@ def printdates():
 def filewrite():
     global dictInfos
     global sortedages
-    file = open('CalcDateProject.txt', 'w')
+    file = open('data.txt', 'w')
     for i in range(0, len(dictInfos['Name'])):
         file.write("{} is {} years old".format(dictInfos['Name'][i], sortedages[i]) + '\n')
     file.close()
 
 def fileread():
     global dictInfos
-    file = open('CalcDateProject.txt', 'r')
+    file = open('data.txt', 'r')
     print(file.read())
     file.close()
 
